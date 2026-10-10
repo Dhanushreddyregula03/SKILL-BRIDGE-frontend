@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://skill-bridge-backend-3-p4fz.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
